@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
+/*Класс, который читает информацию о стоимости перемещения из бинарников*/
 public class ReadBin {
     public static Object read(String path) {
         try {

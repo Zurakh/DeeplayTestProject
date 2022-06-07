@@ -5,6 +5,8 @@ import Interfaces.IGridFiller;
 
 import java.util.Iterator;
 
+
+/*Класс, который заполняет сетку пустымитайлами*/
 public class TileFiller implements IGridFiller {
 
 
@@ -19,11 +21,5 @@ public class TileFiller implements IGridFiller {
 
             }
         }
-//        Iterator iter = codedMap.iterator();
-//        while(iter.hasNext()){
-//            System.out.println(iter.next());
-//        }
-
-
     }
 }

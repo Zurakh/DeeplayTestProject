@@ -1,5 +1,6 @@
 package Interfaces;
 
+/*Интерфейс, который описывает сетку, состоящую из клеток. Это "карта".*/
 public interface IGrid {
     public int getHeightInNodes();
     public int getWidthInNodes();

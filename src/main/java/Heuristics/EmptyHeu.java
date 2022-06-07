@@ -3,7 +3,7 @@ package Heuristics;
 import Classes.Step;
 import Interfaces.IHeuristic;
 
-public class emptyHeu implements IHeuristic {
+public class EmptyHeu implements IHeuristic {
     @Override
     public double solve(int sx, int sy, int tx, int ty) {
         return 0;

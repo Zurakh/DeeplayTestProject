@@ -4,6 +4,7 @@ import Interfaces.ICostTable;
 import Interfaces.IMover;
 import com.google.common.collect.Table;
 
+/*Хранит информацию о скорости премещения в классе Table*/
 public class CoasGetterTablebased implements ICostTable<String, String>  {
     private final Table<String, String, Double> tileSpeedTable;
 

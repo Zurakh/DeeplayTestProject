@@ -1,6 +1,6 @@
 package Classes;
 
-import Heuristics.emptyHeu;
+import Heuristics.TaxicabHeu;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,11 +17,11 @@ public class Solution {
         TileFiller.fillGrid(map, strList);
 
 
-        CoasGetterTablebased table = new CoasGetterTablebased(ReadBin.read("tileSpeed.bin"));
+        CoasGetterTablebased table = new CoasGetterTablebased(ReadBin.read("src/main/resources/tileSpeed.bin"));
 
         AstarPathFinder pathFinder =
                 new AstarPathFinder(new SimpleNeighbors(),
-                map, table, new emptyHeu());
+                map, table, new TaxicabHeu());
         SimpleMover<String> mover = new SimpleMover<String>(race);
         return pathFinder.findPath(mover, 0, 0, 3, 3).getCost();
     }

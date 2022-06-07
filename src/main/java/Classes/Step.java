@@ -3,6 +3,7 @@ package Classes;
 import Interfaces.INode;
 import org.w3c.dom.Node;
 
+/*Обёртка над сеткой, хранящая координаты этой клетки в сетке*/
 public class Step<T> implements Comparable<Step>{
     private INode<T> node;
     private int x;

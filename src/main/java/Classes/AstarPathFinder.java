@@ -4,6 +4,7 @@ import Interfaces.*;
 
 import java.util.PriorityQueue;
 
+/*Данный класс ищёт и составляет путь на основе алгоритма A**/
 public class AstarPathFinder implements IPathFinder {
 
     @Override

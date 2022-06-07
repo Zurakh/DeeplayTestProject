@@ -7,6 +7,8 @@ import Interfaces.INode;
 import java.util.ArrayList;
 import java.util.List;
 
+/*Ищет соседей на расстоянии одной клетки, игноируя диагональные.*/
+
 public class SimpleNeighbors implements INeighbourGetter {
 
     @Override

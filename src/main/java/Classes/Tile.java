@@ -2,6 +2,7 @@ package Classes;
 
 import Interfaces.INode;
 
+/*Клетка, хранящая информацию для алгоритмов поиска пути*/
 public class Tile <T>  implements INode {
     public T getKey() {
         return key;
